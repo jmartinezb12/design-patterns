@@ -1,4 +1,7 @@
 package org.example.Basics.OOPS;
 
-public class DebitCard {
+public class DebitCard extends Card{
+    public DebitCard(String cardNo, String name){
+        super(cardNo,name);
+    }
 }
