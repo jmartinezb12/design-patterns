@@ -1,10 +1,10 @@
 package org.example.Basics.OOPS;
 
-public class CreditCard {
+public class Card {
     private String cardNo;
     private String userName;
 
-    public CreditCard(String cardNo, String name){
+    public Card(String cardNo, String name){
         this.cardNo = cardNo;
         this.userName = name;
     }
