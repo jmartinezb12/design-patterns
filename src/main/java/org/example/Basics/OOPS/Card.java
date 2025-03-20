@@ -1,6 +1,6 @@
 package org.example.Basics.OOPS;
 
-abstract public class Card {
+abstract public class Card implements PaymentMethod{
     private String cardNo;
     private String userName;
 
@@ -17,5 +17,4 @@ abstract public class Card {
         return userName;
     }
 
-    abstract void pay();
 }
